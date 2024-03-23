@@ -1,18 +1,28 @@
-header {
-    position: fixed;
-    top: 0px;
-}
 
-ul {
-    padding: 0px;
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: right;
-    justify-content: space-evenly;
-
-    a {
+   
+   header {
+    padding: 5px;
+    border-radius: 15px;
+    border: 1.8px solid white;
+    margin: 10px 300px;
+    background-color: nth($coloresUsables,4);
+    // position: sticky;
+    // top: 0;
+   
+   ul {
+        padding: 0px;
+        list-style: none;
         text-decoration: none;
+        display: flex;
+        justify-content: right;
+        justify-content: space-evenly;
+
+        li {
+       
+        a {
+            color: $colornaranja;
+            text-decoration: none;
+            }
+        }
     }
 }
-

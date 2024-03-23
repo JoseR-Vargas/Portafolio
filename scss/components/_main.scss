@@ -1,10 +1,148 @@
+
+body {
+    background-color: #81d5fa;
+   }
+
+.main {
+    margin-top: 70px;
+}
+
+.div-h1 {
+    background-color: nth($coloresUsables,4);
+    border: 1.8px solid $colorletrasw;
+    border-radius: 15px;
+    // margin: 20px 300px;
+    margin: map-get($centrado,margins);
+ }
+
+ .coder-house {
+    background-color: $colorbody;
+    // border: 1.8px solid $colorletrasw;
+    border-radius: 15px;
+    margin: 20px 300px;
+
+    .coder-h{
+        color: $colorbody;
+        text-align: center;
+
+
+         &:hover {
+             color: $colorletrasw;
+        }   
+    }
+
+    &:hover {
+        background-color: #000;
+        border: 1.8px solid $colorletrasw;
+        color: $colorletrasw;
+        
+    }
+ }
+
+ .image-developer {
+    display: flex;
+    justify-content: center;
+ }
+
+.photohead {
+    width: 60%;
+    margin-top: 0px;
+}
+
+.p-descripcion {
+    color: $colorletrasw;
+    text-align: center;
+    margin: 10px;
+    border: 1.8px solid $colorletrasw;
+    border-radius: 15px;
+    padding: 15px;
+    background-color:#203745 ;
+    margin: 20px 300px;
+}
+
+
+.h1-index {
+    text-align: center;
+    color: $colornaranja;
+    font-size: 22px;
+}
+
 .photo-main {
-    width: 25%;
+    width: 100%;
+}
+// @keyframes efecto_skills {
+
+//     0% { transform: scale(1);}
+   
+//    25% { transform: scale(1.1);}
+   
+//    50% { transform: scale(1.2);}
+   
+//    75% { transform: scale(1.1);}
+   
+//    100% { transform: scale(1);}
+//     }
+
+// border: 1.8px solid $colorletrasw;
+// border-radius: 15px;
+// width: 10%;
+// margin: 15px;
+// padding: 15px;
+// background-color: #203745;
+
+.p-main {
+border: 1.8px solid $colorletrasw;
+border-radius: 15px;
+width: 10%;
+margin: 15px;
+padding: 15px;
+background-color: #203745;
+    
+    
+    transition: transform 1s;
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    // animation-name: efecto_skills;
+    // animation-iteration-count: infinite;
+    // animation-timing-function: ease-in;
+    // animation-duration: 10s;
+
+}
+.text-skill {
     margin: 15px;
+}
+.my-skills {
+    text-align: center;
+    color: $colornaranja;
+    border: 1.8px solid $colorletrasw;
+    border-radius: 15px;
+    background-color: $colorazul;
+    margin: 29px 300px;
+    
+    ol {
+        // list-style: none;
+
+        li {
+            margin: 5px;
+            text-align: left;
+            color: $colorverde;
+        }
+    }
 }
 
 .photo-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 30px;
+    margin: 35px;
+}
+
+.p-description {
+    color: $colorletrasw;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
 }
