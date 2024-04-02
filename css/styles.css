@@ -25,7 +25,7 @@ footer {
   flex-direction: row;
 }
 .footer-1 .logo-redes {
-  width: 50px;
+  width: 45px;
   margin: 10px;
 }
 .footer-1:hover {
@@ -201,6 +201,46 @@ body {
   font-size: 18px;
   font-style: italic;
   text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  header {
+    padding: 20px;
+    margin: 30px 30px;
+  }
+  .div-h1 {
+    margin: 10px 30px;
+  }
+  .h1-index {
+    font-size: 18px;
+  }
+  .p-descripcion {
+    margin: 10px 30px;
+  }
+  .coder-house {
+    margin: 10px 30px;
+  }
+  .my-skills {
+    margin: 10px 30px;
+  }
+  .photo-container {
+    margin: 10px 0px;
+    padding: 0px;
+  }
+  .p-main {
+    margin: 15 10px;
+    padding: 45px;
+  }
+  .contacto {
+    display: none;
+  }
+  .contacto-f {
+    display: none;
+  }
+  .logo-redes {
+    width: 35px;
+    margin: 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
