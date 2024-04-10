@@ -246,14 +246,14 @@ body {
   border: 1.8px solid rgb(255, 255, 255);
   border-radius: 15px;
   width: 200px;
-  color: rgb(255, 255, 255);
+  color: #fe8f01;
   animation-name: efecto_boton;
   animation-timing-function: ease-in;
   animation-duration: 0.2s;
 }
-.btn-inicio a {
+
+a {
   text-decoration: none;
-  color: #fe8f01;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 500px) {
