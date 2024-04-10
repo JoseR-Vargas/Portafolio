@@ -34,7 +34,7 @@ footer {
 
 .h4-redes {
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-size: 16px;
   font-style: italic;
   text-align: center;
   margin: 30px 15px;
@@ -91,6 +91,7 @@ header ul {
 header ul li a {
   color: #fe8f01;
   text-decoration: none;
+  font-size: 17px;
 }
 
 body {
@@ -150,7 +151,7 @@ body {
 .h1-index {
   text-align: center;
   color: #fe8f01;
-  font-size: 22px;
+  font-size: 23px;
 }
 
 .photo-main {
@@ -172,6 +173,7 @@ body {
 
 .text-skill {
   margin: 15px;
+  font-size: 22px;
 }
 
 .my-skills {
@@ -203,6 +205,57 @@ body {
   text-align: center;
 }
 
+.pag-inicio {
+  background-image: linear-gradient(to right, #81d5fa, rgb(255, 255, 255));
+}
+
+.border-h1 {
+  background-color: #203745;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  width: 500px;
+  margin: 250px auto 0 auto;
+}
+
+.portafolio-h1 {
+  text-align: center;
+  color: #fe8f01;
+}
+
+@keyframes efecto_boton {
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.btn-inicio {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 15px auto;
+  background-color: #ea1e63;
+  border: 1.8px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  width: 200px;
+  color: rgb(255, 255, 255);
+  animation-name: efecto_boton;
+  animation-timing-function: ease-in;
+  animation-duration: 0.2s;
+}
+.btn-inicio a {
+  text-decoration: none;
+  color: #fe8f01;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 500px) {
   header {
     padding: 20px;
@@ -212,13 +265,16 @@ body {
     margin: 10px 30px;
   }
   .h1-index {
-    font-size: 18px;
+    font-size: 17px;
   }
   .p-descripcion {
     margin: 10px 30px;
   }
   .coder-house {
     margin: 10px 30px;
+  }
+  .text-skill {
+    font-size: 17px;
   }
   .my-skills {
     margin: 10px 30px;
@@ -228,7 +284,7 @@ body {
     padding: 0px;
   }
   .p-main {
-    margin: 15 10px;
+    margin: 15px 10px;
     padding: 45px;
   }
   .contacto {
@@ -238,8 +294,17 @@ body {
     display: none;
   }
   .logo-redes {
-    width: 35px;
+    width: 30px;
     margin: 10px;
+  }
+  .border-h1 {
+    width: 300px;
+    margin: 250px auto 10px auto;
+    font-size: 13px;
+  }
+  .btn-inicio {
+    margin: auto;
+    font-size: 14px;
   }
 }
 

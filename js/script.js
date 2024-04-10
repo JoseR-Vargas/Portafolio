@@ -2,12 +2,14 @@
 
 // let respuesta = prompt('De que zona nos contactas')
 
-alert('Bienvenidos a mi portafolio')
+// alert('Bienvenidos a mi portafolio')
 // alert
 // alert('debes aceptar los terminos y condiciones')
 
 // confirm
-// let confirmar = confirm('Debes aceptar los terminos y condiciones')
+// let confirmar = confirm('Bienvenido a mi portafolio')
+
+// confirm('Bienvenido a mi portafolio')
 
 // concatenacion
 

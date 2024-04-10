@@ -12,7 +12,7 @@
     }
 
     .h1-index {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .p-descripcion{
@@ -24,6 +24,10 @@
     }
 
 
+    .text-skill{
+        font-size: 17px;
+    }
+
     .my-skills{
         margin: 10px 30px;
     }
@@ -33,7 +37,7 @@
         padding: 0px;
     }
     .p-main{
-        margin: 15 10px;
+        margin: 15px 10px;
         padding: 45px;
     }
 
@@ -46,8 +50,21 @@
     }
 
     .logo-redes {
-        width: 35px;
+        width: 30px;
         margin: 10px;
+       }
+
+
+    .border-h1{
+        width:300px;
+        margin: 250px auto 10px auto;
+        font-size: 13px;
+    }
+
+
+    .btn-inicio{
+        margin: auto;
+        font-size: 14px;
        }
 }
 

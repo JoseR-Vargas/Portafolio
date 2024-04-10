@@ -56,7 +56,7 @@ body {
     border: 1.8px solid $colorletrasw;
     border-radius: 15px;
     padding: 15px;
-    background-color:#203745 ;
+    background-color:#203745;
     margin: 20px 300px;
 }
 
@@ -64,7 +64,7 @@ body {
 .h1-index {
     text-align: center;
     color: $colornaranja;
-    font-size: 22px;
+    font-size: 23px;
 }
 
 .photo-main {
@@ -112,6 +112,7 @@ background-color: #203745;
 }
 .text-skill {
     margin: 15px;
+    font-size: 22px;
 }
 .my-skills {
     text-align: center;
@@ -146,3 +147,63 @@ background-color: #203745;
     font-style: italic;
     text-align: center;
 }
+
+// pagina inicio
+
+.pag-inicio{
+   background-image:linear-gradient(to right, $colorbody,$colorletrasw); 
+}
+
+
+ .border-h1 {
+     background-color: $colorazul;
+    // background-image: linear-gradient(to right,$colorazul,$colorletrasw);
+     border: 2.0px solid $colorletrasw;
+     border-radius: 15px; 
+     width: 500px;
+     margin: 250px auto 0 auto;
+
+ }
+.portafolio-h1 {
+    text-align: center;
+    color: $colornaranja;  
+}
+
+@keyframes efecto_boton{    
+    25% { transform: rotate(90deg);}
+    
+    50% { transform: rotate(180deg);}
+    
+    75% { transform: rotate(270deg);}
+    
+    100% { transform: rotate(360deg);}
+        }
+
+.btn-inicio{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 15px auto;
+    background-color: $colorfooter;
+    border: 1.8px solid $colorletrasw;
+    border-radius: 15px;
+    width: 200px;
+    color: $colorletrasw;
+
+    a{
+        text-decoration: none;
+        color: $colornaranja;
+        
+    }
+
+    animation-name: efecto_boton;
+    animation-timing-function: ease-in;
+    animation-duration: 0.2s;
+}
+
+
+
+
+    
+
